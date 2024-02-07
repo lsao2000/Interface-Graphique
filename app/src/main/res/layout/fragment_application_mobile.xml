@@ -29,5 +29,6 @@
             android:layout_height="wrap_content"
             android:text="Afficher les groupes"
             android:gravity="center" />
+
     </LinearLayout>
 </FrameLayout>
