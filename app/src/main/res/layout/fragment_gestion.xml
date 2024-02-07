@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".FR.gestionFragment">
 
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="770dp"
@@ -31,3 +32,8 @@
 
 
 </FrameLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+   
+</FrameLayout>
+
