@@ -3,8 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ApplicationMobileFragment">
+    tools:context=".PFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="770dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNom"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="XXX"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:src="@mipmap/ic_launcher"  />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Afficher les groupes"
+            android:gravity="center" />
+
+    </LinearLayout>
+</FrameLayout>
 
     <!-- TODO: Update blank fragment layout -->
-   
-</FrameLayout>
+
+

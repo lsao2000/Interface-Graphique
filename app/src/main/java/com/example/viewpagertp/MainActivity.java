@@ -3,7 +3,6 @@ package com.example.viewpagertp;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager2.widget.ViewPager2;
 import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
     private ViewPager2 VP;
 
