@@ -1,11 +1,8 @@
 package com.example.viewpagertp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
 import androidx.viewpager2.widget.ViewPager2;
-
 import android.os.Bundle;
-
 public class MainActivity extends AppCompatActivity {
 ViewPager2 VP;
     @Override
