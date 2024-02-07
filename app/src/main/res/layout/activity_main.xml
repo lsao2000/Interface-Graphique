@@ -6,13 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
-<<<<<<< HEAD
+
     
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-   </androidx.constraintlayout.widget.ConstraintLayout>
-=======
+
 </LinearLayout>
->>>>>>> d867306d80a5c724b9bc921be5c5242e522d6864
