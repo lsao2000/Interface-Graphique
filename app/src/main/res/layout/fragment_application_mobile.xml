@@ -30,5 +30,4 @@
             android:text="Afficher les groupes"
             android:gravity="center" />
     </LinearLayout>
-
 </FrameLayout>
