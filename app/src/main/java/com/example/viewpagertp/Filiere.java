@@ -7,7 +7,7 @@ public class Filiere{
     String nomFil;
     String code;
     int image;
-    public List<Group> lstGroups;
+    private  List<Group> lstGroups = new ArrayList<Group>();
     public Filiere(String nomFil, int image) {
         this.nomFil = nomFil;
         this.image = image;

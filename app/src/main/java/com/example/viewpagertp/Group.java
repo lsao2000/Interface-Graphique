@@ -1,16 +1,20 @@
 package  com.example.viewpagertp;
 import java.util.List;
+import java.util.ArrayList;
 
 public class Group {
-    public List<Stagiaire> lststagiaire;
+    private List<Stagiaire> lststagiaire = new ArrayList<Stagiaire>();
     private String nameGroup;
     private int annee;
     private Filiere filiere;
     private String code;
     private int numberStudent = lststagiaire.size();
-    public Group(String namegroup, int numberstudent){
+    public Group(String namegroup, int numberstudent, int annee, Filiere filiere, String code){
         this.nameGroup = namegroup;
         this.numberStudent = numberstudent;
+        this.code = code;
+        this.annee = annee;
+        this.filiere = filiere;
     }
     public void setLststagiaire(List<Stagiaire> lststagiaire){
         this.lststagiaire = lststagiaire;
@@ -44,5 +48,8 @@ public class Group {
     }
     public void setNumberStudent(int number){
         this.numberStudent = number;
+    }
+    public int getNumberStudent(){
+        return numberStudent;
     }
 }

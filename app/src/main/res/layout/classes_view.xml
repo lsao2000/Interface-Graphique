@@ -4,18 +4,55 @@
 android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_horizontal">
-
-    <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Name Class"
-    android:id="@+id/nameClass"
-    android:textStyle="bold"
-    android:textSize="30sp"
-    />
-    <androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/myRecycle2"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name Class"
+            android:id="@+id/nameGroup"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="annee"
+            android:id="@+id/annee"
+            />
+        </LinearLayout>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="code"
+        android:id="@+id/codeGroup"
+        />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filiere : DEV"
+        android:id="@+id/filiere"
+        />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numberStudent"
+        android:id="@+id/numberStudent"
+        />
+
+
+    </LinearLayout>
+       <androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recycleStudent"
     />
 </LinearLayout>
