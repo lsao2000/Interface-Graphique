@@ -16,19 +16,14 @@ public class IntroActivity extends AppCompatActivity {
    brand = findViewById(R.id.brand);
         Animation brandAnimation = AnimationUtils.loadAnimation(this, R.anim.intro_animation);
         brand.setAnimation(brandAnimation);
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        Thread.sleep(2000L);
-                        Intent homeActivity = new Intent(getApplicationContext(), MainActivity.class);
-                        startActivity(homeActivity);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
-                }
-            });
-
+        new Handler().postDelayed(new Runnable(){
+            @Override
+            public void run(){
+                Intent homeActivity = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(homeActivity);
             }
+        },2600);
 
     }
+
+}
