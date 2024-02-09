@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                                   android:layout_width="match_parent"
-android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center_horizontal">
     <LinearLayout
@@ -20,13 +20,14 @@ android:layout_height="match_parent"
             android:text="Name Class"
             android:id="@+id/nameGroup"
             android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="18sp"
             />
             <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="annee"
             android:id="@+id/annee"
+            android:gravity="end"
             />
         </LinearLayout>
         <TextView
@@ -47,7 +48,6 @@ android:layout_height="match_parent"
         android:text="numberStudent"
         android:id="@+id/numberStudent"
         />
-
 
     </LinearLayout>
        <androidx.recyclerview.widget.RecyclerView

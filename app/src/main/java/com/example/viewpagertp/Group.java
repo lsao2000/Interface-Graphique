@@ -1,8 +1,9 @@
 package  com.example.viewpagertp;
+import java.io.Serializable;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Group {
+public class Group implements Serializable {
     private List<Stagiaire> lststagiaire = new ArrayList<Stagiaire>();
     private String nameGroup;
     private int annee;
