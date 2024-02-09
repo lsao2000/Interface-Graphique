@@ -1,7 +1,7 @@
 package com.example.viewpagertp;
-
+import java.io.Serializable;
 import java.time.LocalDate;
-public class Stagiaire {
+public class Stagiaire implements Serializable {
     private int numInscription;
     private String name;
     private String prenom;

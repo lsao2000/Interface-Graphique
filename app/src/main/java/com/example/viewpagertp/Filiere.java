@@ -3,7 +3,8 @@ package com.example.viewpagertp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-public class Filiere{
+import java.io.Serializable;
+public class Filiere implements Serializable{
     String nomFil;
     String code;
     int image;
